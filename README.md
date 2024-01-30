@@ -34,11 +34,11 @@ We will also feature engineer 3 new columns: `time_of_day`, `day_name` and `mont
 
 1) `time_of_day` ==> A VARCHAR variable which will tell us whether the sale occured during the morning, afternoon or evening. 
 
-2) `day_name` ==> A VARCHAR variable which will tell us which day of the week the sale occured (Mon,Tues,ETC)
+2) `day_name` ==> A VARCHAR variable which will tell us which day of the week the sale occurred (Mon, Tues, ETC)
+ 
+3) `month_name` ==> A VARCHAR variable which will tell us which month the sale occurred. (Jan, Feb, etc)
 
-3) `month_name` ==> A VARCHAR variable which will tell us which month the sale occured. (Jan,Feb,etc)
-
-Throughout this analysis we will answer questions in regards to products, sales, customers and as well as generic questions about the dataset. The questions that we will be answering within this repository will be listed below, however the answer swill be included in a seperate file within the repository.  The SQL code within the repository will also provide answers to the questions and as well as the table outputs for each question.
+Throughout this analysis we will answer questions in regards to products, sales, customers and as well as generic questions about the dataset. The questions that we will be answering within this repository will be listed below, however the answer swill be included in a separate file within the repository.  The SQL code within the repository will also provide answers to the questions and as well as the table outputs for each question.
 
 ### **Generic Questions**
 
@@ -56,17 +56,17 @@ Throughout this analysis we will answer questions in regards to products, sales,
 4) What is the most common product line for each gender?
 5) Which product lines were above the average sales for the entire dataset?
 
-### **Sales Qustions**
+### **Sales Questions**
 1) What is the total revenue for each month?
 2) Which month has the largest COGS? 
 3) Which city has the largest revenue?
 4) Which product line had the largest VAT?
 5) Which branch sold more products than average products sold?
-6) During which time of day are the number of sales the largest during each weekdays?
+6) During which time of day are the number of sales the largest during each weekday?
 7) During which time of day are the number of sales the largest during each weekend?
 8) Which city has the largest tax percent / VAT (Value Added Tax)?
 9) What is the average gross income for each branch based off the time of day?
-10) What is the average sales based of each payment method?
+10) What are the average sales based of each payment method?
 11) Count the total amount of times a sale from each branch was above the average gross income.
 
 ### **Customer Questions**
